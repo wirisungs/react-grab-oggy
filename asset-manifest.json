@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wirisungs.github.io/react-grab-oggy/static/css/main.dc4d6ff2.css",
+    "main.js": "/wirisungs.github.io/react-grab-oggy/static/js/main.db722654.js",
+    "index.html": "/wirisungs.github.io/react-grab-oggy/index.html",
+    "main.dc4d6ff2.css.map": "/wirisungs.github.io/react-grab-oggy/static/css/main.dc4d6ff2.css.map",
+    "main.db722654.js.map": "/wirisungs.github.io/react-grab-oggy/static/js/main.db722654.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.db722654.js"
+  ]
+}
