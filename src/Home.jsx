@@ -29,7 +29,7 @@ function App() {
             <Form_Location ></Form_Location>
               <div className='flex justify-center mt-32'> 
                 <div className='w-full'>
-                  <h1 className="font-bold md:text-4xl text:xl p-4 ">GrabFood Promo in <span className="text-green-grab">Location</span></h1>
+                  <h1 className="font-bold md:text-4xl text:xl p-4 ">Ưu đãi Grab Food tại <span className="text-green-grab">47A Tô Ngọc Vân, phường Linh Tây....</span></h1>
               </div>
             </div>
           </div>

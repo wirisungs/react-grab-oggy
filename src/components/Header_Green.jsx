@@ -16,20 +16,20 @@ export default function Header_Green(){
             </div>
             <div className="btn_left">
             <a className="bg-white p-[8px] rounded-md border-[#f5f5f5] border-[1px]">
-                <img className="w-5" alt="lmao" src="https://food.grab.com/static/images/icons/icon-cart-default-black.svg"></img>
+                <img className="w-5" src="https://food.grab.com/static/images/icons/icon-cart-default-black.svg"></img>
             </a>
 
             <div className='border_header'>
                 <div className="btn_header">
                     <a href="" id="btn_text" >
-                        Login/Sign Up
+                        Đăng nhập/Đăng ký
                     </a>
                 </div>
                 </div>
             
                 <div className="btn_header">
                     <a href="" id="btn_text">
-                        EN
+                        VI
                     </a>
                 </div>
             </div>

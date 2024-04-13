@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header_Green from "../components/Header_Green"
 import Item_Dish from "../components/Restaurant/Item_Dish"
 import ListRestaurant from "../components/Restaurant/List_Restaurant";
-import { Food_Promo } from "../Data/data";
+import { Food_Promo } from "../data/data";
 function SearchItem(){
     return(
         <div className="bg-[#F7F7F7] rounded-s-full rounded-e-full  w-full h-fit flex p-2 mb-5">
@@ -32,7 +32,7 @@ export default function searchRes(){
             </div>
             <div>
             <div className="flex mt-2 justify-center bg-white" >
-            <h1 className="w-[1200px] p-4 text-3xl max-sm:text-sm font-bold">Food Promos in <span className="text-green-grab">136/46B Trần Quang Diệu, P.14, Q.3, Hồ Chí Minh, 7000...</span></h1>
+            <h1 className="w-[1200px] p-4 text-3xl max-sm:text-sm font-bold">Food Promos in <span className="text-green-grab">47A Tô Ngọc Vân, phường Linh Tây, Thành phố Thủ Đức....</span></h1>
 
             </div>
             <div className="flex  justify-center bg-white" >

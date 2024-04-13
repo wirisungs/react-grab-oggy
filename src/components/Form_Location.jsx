@@ -4,7 +4,7 @@ export default function Form_Location(){
     return(
         <div className=" p-5 bg-white absolute top-28 md:max-w-[355px] w-full rounded-lg border-border-color border-[1px]" >
             <h3 className="font-bold mt-5 text-2xl">
-                你好 
+                Good Evening 
             </h3>
             <h1 className="font-bold lg:text-4xl text-2xl">
                 Where should we deliver your food today?

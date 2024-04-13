@@ -22,7 +22,7 @@ export default function Ask_Home(){
             <div className={hidden ? 'hidden' : undefined}>
                 {HR}
                 <Title content={'How to order Grabfood online?'}></Title>
-                <p className="text-sm">Here is the easiest way to order food from GrabFood in Vietnam:</p>
+                <p className="text-sm">Here is the easiest way to order food from GrabFood in Singapore:</p>
                 <ol className="text-sm">
                     <li className="p-3"><span className="font-bold ">Search your favorite restaurant or the dish</span><span> - Enter your address on the home page. Look at the GrabFood Listed Restaurants and Food spots near you. Pick your favorite restaurant and browse through the menu and select the dish you want to order.</span></li>
                     <li className="p-3"><span className="font-bold">Checkout & Payment</span><span> - Once sure that you are ordering enough, click on the "ORDER NOW" tab and enter your final food delivery address. Choose the payment method that best suits you, and checkout.</span></li>

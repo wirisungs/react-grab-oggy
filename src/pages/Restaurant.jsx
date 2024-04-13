@@ -1,8 +1,8 @@
-import Header from "../components/Header/Headern";
-import Header_Green from '../Header_Green'
+import Header from "../components/Header";
+import Header_Green from '../components/Header_Green'
 import Info from "../components/Restaurant/Info";
 import Menu_Item from "../components/Restaurant/Menu_Item";
-import { Food_Promo } from "../Data/data";
+import { Food_Promo } from "../data/data";
 import React, {useRef, useState } from 'react';
 import { Link,animateScroll as scroll, scrollSpy } from 'react-scroll';
 import Footer from '../components/Footer';
