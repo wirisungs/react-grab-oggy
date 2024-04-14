@@ -3,7 +3,7 @@ import choose_location from '../asset/choose_location.png'
 export default function Form_Location(){
     return(
         <div className=" p-5 bg-white absolute top-28 md:max-w-[355px] w-full rounded-lg border-border-color border-[1px]" >
-            <h3 className="font-bold mt-5 text-2xl">
+            <h3 className="font-bold mt-5 text-1sxl">
                 Good Evening 
             </h3>
             <h1 className="font-bold lg:text-4xl text-2xl">
@@ -14,7 +14,7 @@ export default function Form_Location(){
                 <input className="w-full outline-0 pl-2 pr-2"></input>
                 <a href=''><img className='md:w-6 w-5 h-5' src={choose_location}></img></a>
             </div>
-            <button className="mb-10 bg-green-grab w-full p-4 font-bold text-white rounded-md mt-6">Search</button>
+            <button className="mb-10 bg-green-grab w-full p-4 font-bold text-white rounded-md mt-6">Tìm kiếm</button>
         </div>
     );
 }

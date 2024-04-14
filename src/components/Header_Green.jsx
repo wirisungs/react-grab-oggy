@@ -10,8 +10,7 @@ export default function Header_Green(){
 
             <div className="max-sm:hidden flex items-center ml-[100px] mr-auto border-[1px] w-max-[360px] h-max[20px] border-[#aeaeae] p-[6px] rounded-s-md rounded-e-md">
                 <span className="pl-4 pr-2 text-[15px] text-[#6C6767]">Deliver to</span>
-                <img className="w-5 h-5" src={location_icon}></img>
-                <span className="pl-2">Address User.........</span>
+                <span className="pl-2"></span>
                 
             </div>
             <div className="btn_left">

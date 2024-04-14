@@ -20,7 +20,7 @@ function App() {
     <div>
        <Header/>
        <div >
-        <img className="w-full h-96 object-cover" src={bg_data[rndInt].link}></img>
+        <img className="w-full h-100 object-cover" src={bg_data[rndInt].link}></img>
        </div>
       
       <div className="flex justify-center" >
@@ -40,7 +40,7 @@ function App() {
           <div style={{width: 1200}}> 
           <div className='flex justify-center p-4 '> 
             <div className='w-full'>
-              <a href='/grab-food-react/#/searchRes' ><div className=" p-3 text-center text-[#676767]  border-[1px] rounded-md border-[#676767] font-bold mt-3 mb-3 hover:border-green-grab hover:text-green-grab w-full">See all promotions</div></a>
+              <a href='/grab-food-react/#/searchRes' ><div className=" p-3 text-center text-[#676767]  border-[1px] rounded-md border-[#676767] font-bold mt-3 mb-3 hover:border-green-grab hover:text-green-grab w-full">Xem thêm khuyến mãi</div></a>
             </div>
           </div>
           <h1 className="font-bold md:text-4xl text:3xl w-full p-4 pb-0">There's something for everyone!</h1>
@@ -60,7 +60,7 @@ function App() {
             <Grid_Food {...Food_EV[10]}></Grid_Food>
           </div>
           <div className=" p-4">
-          <h1 className="font-bold text-4xl w-full mb-4 mt-10">Why GrabFood?</h1>
+          <h1 className="font-bold text-4xl w-full mb-4 mt-10">Vì sao bạn nên Order trên GrabFood?</h1>
             <ul className="p-4 text-sm">
               <Why_GrabFood {...why_grab[0]}></Why_GrabFood>
               <Why_GrabFood {...why_grab[1]}></Why_GrabFood>
@@ -75,7 +75,6 @@ function App() {
         </div>
         <div className="bg-[#F7F7F7] flex justify-center">
           <div className="w-[1200px]">
-          <Exp_With_Grab></Exp_With_Grab>
           </div>
         </div>
         <Footer></Footer>

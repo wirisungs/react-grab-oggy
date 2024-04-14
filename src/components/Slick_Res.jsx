@@ -34,13 +34,13 @@ export default function Slick_Res(){
                   <GrabFood_Promo {...Food_Promo[0]}/>
                 </div>
                 <div>
-                  <GrabFood_Promo {...Food_Promo[1]}/>
+                  <GrabFood_Promo {...Food_Promo[0]}/>
                 </div>
                 <div>
                   <GrabFood_Promo {...Food_Promo[0]}/>
                 </div>
                 <div>
-                  <GrabFood_Promo {...Food_Promo[1]}/>
+                  <GrabFood_Promo {...Food_Promo[0]}/>
                 </div>
               </Slider>
      

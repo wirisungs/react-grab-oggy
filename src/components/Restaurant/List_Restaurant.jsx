@@ -3,7 +3,7 @@ export default function ListRestaurant(props){
      <a href="/grab-food-react/#/restaurant">
            <div className="w-[100%] relative max-sm:flex  ">
             <div className="absolute bg-green-grab p-[3px] text-[10px] text-white font-bold rounded-sm max-sm:mt-2 mt-4 px-2">
-                    Promo
+                    Khuyến mãi
                 </div>
             <div className="">
                 <img className="h-[160px] object-cover rounded-md max-sm:w-[100px] max-sm:h-[100px] max-[400px]:w-[90px] max-[400px]:h-[90px] max-[400px]:object-cover max-sm:object-cover w-[100%] " src={props.image}></img>

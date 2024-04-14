@@ -7,7 +7,7 @@ function SearchItem(){
     return(
         <div className="bg-[#F7F7F7] rounded-s-full rounded-e-full  w-full h-fit flex p-2 mb-5">
             <img className="w-[18px] h-[18px] ml-5" src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png"></img>
-            <input placeholder="Search for a dish ỏ a restaurant" className="text-sm text-[#676767] bg-[#F7F7F7] w-full h-5 outline-none ml-2"></input>
+            <input placeholder="" className="text-sm text-[#676767] bg-[#F7F7F7] w-full h-5 outline-none ml-2"></input>
         </div>
     );
 }
@@ -24,8 +24,7 @@ export default function searchRes(){
                         </div>
                         <div className="flex gap-6 overflow-x-hidden mb-5">
                             <Item_Dish/>
-                            <Item_Dish/>
-                            <Item_Dish/>
+                            
                        
                         </div>
                     </div>
@@ -38,12 +37,18 @@ export default function searchRes(){
             <div className="flex  justify-center bg-white" >
                 <div className="grid gap-3 p-4 w-[1200px] grid-cols-4 max-sm:grid-cols-1 max-md:grid-cols-3">
                             <ListRestaurant {...Food_Promo[0]}/>
-                            <ListRestaurant {...Food_Promo[1]}/>
                             <ListRestaurant {...Food_Promo[0]}/>
                             <ListRestaurant {...Food_Promo[0]}/>
-                            <ListRestaurant {...Food_Promo[1]}/>
                             <ListRestaurant {...Food_Promo[0]}/>
-                            <ListRestaurant {...Food_Promo[1]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+                            <ListRestaurant {...Food_Promo[0]}/>
+
                 </div>
                 </div>
             </div>

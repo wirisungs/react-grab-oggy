@@ -7,16 +7,16 @@ export default function Footer(props){
             <hr className="m-5 border-[#3AC377]"></hr>
             <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-1 text-white font-bold text-sm">
                 <ul >
-                    <a><li className="m-5 mb-0">About Grab Food</li></a>
-                    <a><li className="m-5 mb-0">About Grab</li></a>
+                    <a><li className="m-5 mb-0">Về GrabFood</li></a>
+                    <a><li className="m-5 mb-0">Về Grab</li></a>
                     <a><li className="m-5 mb-0">Blog</li></a>
                 </ul>
                 <ul>
-                    <a><li className="m-5 mb-0">Be a GrabFood Merchant</li></a>
-                    <a><li className="m-5 mb-0">Drive With Grab</li></a>
+                    <a><li className="m-5 mb-0">Khởi nghiệp cùng Grab</li></a>
+                    <a><li className="m-5 mb-0">Tài xế Grab</li></a>
                 </ul>
                 <ul>
-                    <a><li className="m-5 mb-0">Help</li></a>
+                    <a><li className="m-5 mb-0">Trợ giúp</li></a>
                     <a><li className="m-5 mb-0">FAQs</li></a>
                 </ul>
                 <div className="flex">
@@ -34,8 +34,8 @@ export default function Footer(props){
                 <div className="w-full"></div>
                 <div className="mb-3 text-white text-[12px] gap-5 flex items-center">
                     <span>© 2024 Grab</span>
-                    <span>Terms of Service</span>
-                    <span>Privacy Policy</span>
+                    <span>Chính sách sử dụng</span>
+                    <span>Câu hỏi thường gặp</span>
                 </div>
             </div>
         </div>

@@ -22,13 +22,13 @@ function Dish(props){
     return(
         <div className="bg-white p-5 flex mt-[68px]">
         <div>
-            <img className="w-[100px] rounded-md" src="https://food-cms.grab.com/compressed_webp/items/VNITE20240401023457014792/photo/a146593b_b19a23a1709.webp"></img>
+            <img className="w-[100px] rounded-md" src="https://food-cms.grab.com/compressed_webp/items/VNITE2022121314474230352/detail/menueditor_item_56254e7cd4334cea98434814d48f5907_1670942838838240664.webp"></img>
         </div>
         <div className="pl-4 w-[300px]">
-            <h1 className="font-bold text-2xl">Khoai Tây Chiên (R) (1709)</h1>
-            <p className="text-text">Giá gốc 30k giảm giá flash sale chỉ còn 10k cho khoai tây chiên (R). Đã bao gồm 1x Tương Cà</p>
+            <h1 className="font-bold text-2xl">Bún đậu mắm tôm (2002)</h1>
+            <p className="text-text">Giá gốc 500k đã giảm giá 100% còn 0k. Đã kèm một hũ mắm tôm</p>
         </div>
-        <div className="font-bold text-xl">10.000</div>
+        <div className="font-bold text-xl">0đ</div>
     </div>
     );
 }
@@ -38,7 +38,7 @@ function Option(props){
         <input type="checkbox" className="accent-green-900 w-[25px] h-[25px] "   />
         <div className="flex items-center justify-between w-full pl-4 text-text">
             <div>{props.title}</div>
-            <div>4.000</div>
+            <div>4.000đ</div>
         </div>
     </label>
     );
@@ -47,9 +47,9 @@ function Instructions(){
     return(
         <div className="bg-white w-[505px] max-sm:w-full p-4 mt-2 ">
             <div className="flex">
-                <h1 className="font-bold">Special instruction</h1>&nbsp; <span > optional </span>
+                <h1 className="font-bold">Lưu ý đặc biệt</h1>&nbsp; <span > (Tuỳ chọn) </span>
             </div>
-            <input className="mt-2 hover:border-green-grab w-[98%] p-3 rounded-e-xl rounded-s-xl focus:border-[1px] focus:border-green-grab border-[1px]" placeholder="E.g No onions please"></input>
+            <input className="mt-2 hover:border-green-grab w-[98%] p-3 rounded-e-xl rounded-s-xl focus:border-[1px] focus:border-green-grab border-[1px]" placeholder="Vd Không rau"></input>
         </div>
     );
 }
@@ -151,26 +151,11 @@ export default function Restaurant(){
                     <Dish></Dish>
                     <div className="bg-white max-sm:w-full w-[505px] p-4 mt-2">
                         <div className="flex">
-                            <h1 className="font-bold">Khoai Tây Chiên (R)</h1> &nbsp;<span > option max, 4 </span>
+                            <h1 className="font-bold">Bún đậu mắm tôm</h1> &nbsp;<span > tuỳ chọn tối đa, 2002 </span>
                         </div>
                         <div>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
+                            <Option title = "Thêm 100 bịch mắm tôm"></Option>
                             <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
-                            <hr className="w-[99%] border-gray flex justify-center"></hr>
-                            <Option title = "Thêm 2 Gói Tương Cà"></Option>
                         </div>
                     </div>
                     <Instructions></Instructions>
@@ -184,10 +169,11 @@ export default function Restaurant(){
                     <div>
                         <img src="https://food.grab.com/static/images/icons/icon-plus-bordered.svg"></img>
                     </div>
-                    <button className="bg-green-grab max-sm:w-[250px] w-[300px] font-bold text-white rounded-md p-3">Add to Basket - 10.000đ</button>
+                    <button className="bg-green-grab max-sm:w-[250px] w-[300px] font-bold text-white rounded-md p-3">Thêm vào giỏ hàng</button>
                 </div>
             </div>
-            <p className="text-center text-sm m-4">We're always working to get the most accurate information. Let us know if you come across anything that's outdated!</p>
+            <p className="text-center text-sm m-4">Chúng tôi luôn cố gắng cập nhật thông tin chính xác nhất. Hãy báo với chúng tôi nếu bạn thấy bất kỳ thông tin không chính xác nào.
+\</p>
             <Footer></Footer>
         </div>);
 }
